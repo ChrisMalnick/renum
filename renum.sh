@@ -9,8 +9,6 @@
 # Author:	Chris Malnick
 # 
 # Date:		1/22/2019
-# 
-# Legal:	Unregistered Copyright (C) 2019 Chris Malnick - All Rights Reserved
 ###############################################################################
 
 readonly ARGC=2
