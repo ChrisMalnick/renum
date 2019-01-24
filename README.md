@@ -6,34 +6,34 @@ Empty lines will simply have six characters added. The trailing new line will be
 #### Example
 
 Starting with:
-         IDENTIFICATION DIVISION.
-         PROGRAM-ID. Example.
-         AUTHOR. Chris Malnick.
-        
-         DATA DIVISION.
-         WORKING-STORAGE SECTION.
+IDENTIFICATION DIVISION.
+PROGRAM-ID. Example.
+AUTHOR. Chris Malnick.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
 
 And running:
 './renum.sh examp.cbl 10'
 
 Results in:
-  000010 IDENTIFICATION DIVISION.
-  000020 PROGRAM-ID. Example.
-  000030 AUTHOR. Chris Malnick.
-  000040
-  000050 DATA DIVISION.
-  000060 WORKING-STORAGE SECTION.
+000010 IDENTIFICATION DIVISION.
+000020 PROGRAM-ID. Example.
+000030 AUTHOR. Chris Malnick.
+000040
+000050 DATA DIVISION.
+000060 WORKING-STORAGE SECTION.
 
 And then running:
 './renum.sh examp.cbl 100'
 
 Results in:
-  000100 IDENTIFICATION DIVISION.
-  000200 PROGRAM-ID. Example.
-  000300 AUTHOR. Chris Malnick.
-  000400
-  000500 DATA DIVISION.
-  000600 WORKING-STORAGE SECTION.
+000100 IDENTIFICATION DIVISION.
+000200 PROGRAM-ID. Example.
+000300 AUTHOR. Chris Malnick.
+000400
+000500 DATA DIVISION.
+000600 WORKING-STORAGE SECTION.
 
 #### Considerations
 
