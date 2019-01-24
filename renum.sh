@@ -3,8 +3,8 @@
 ###############################################################################
 # File:		renum.sh
 # 
-# Summary:	Generates six digit sequence numbers of specified increment for all
-# 		lines in specified file
+# Summary:	Generates six digit sequence numbers of specified increment for
+# 		all lines in specified file
 # 
 # Author:	Chris Malnick
 # 
