@@ -42,7 +42,7 @@ Results in:
 
 #### Considerations
 
-Any non-zero, positive integer can be specified as the increment so long as it does not exceed the maximum sequence number of 999999 given the specified file's line count.
+Any non-zero, positive integer can be specified as the increment so long as no sequence number will exceed the maximum of 999999 given the specified file's line count.
 
 If the script fails to run, it likely needs to be given execute permission:
 
