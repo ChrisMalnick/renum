@@ -16,7 +16,7 @@ Starting with:
 
 And running:
 
-    ./renum.sh examp.cbl 10
+    ./renum.sh example.cbl 10
 
 Results in:
 
@@ -29,7 +29,7 @@ Results in:
 
 And then running:
 
-    ./renum.sh examp.cbl 100
+    ./renum.sh example.cbl 100
 
 Results in:
 
