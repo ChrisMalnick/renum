@@ -46,10 +46,10 @@ Any non-zero, positive integer can be specified as the increment so long as no s
 
 If the script fails to run, it likely needs to be given execute permission:
 
-    chmod --x renum.sh
+    chmod -x renum.sh
 
-If ever editing the file, consider running dos2unix or equivalent on it after just to be safe.
+If ever editing the file on Windows, consider running dos2unix or equivalent on it after just to be safe.
 
-Consider adding this file to the PATH or creating an alias in .bashrc in order to enable the script to run from any directory:
+Consider adding this file to the PATH or creating an alias in .bashrc in order to run the script more easily from any directory:
 
     alias renum='C:/example/directory/renum.sh'
